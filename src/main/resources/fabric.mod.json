@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "stunslam",
+  "version": "${version}",
+  "name": "Stun Slam",
+  "description": "Axt bricht den Schild, danach schlaegt die Mace zu - automatisch, solange die Mod an ist (Taste V).",
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.stunslam.StunSlamClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

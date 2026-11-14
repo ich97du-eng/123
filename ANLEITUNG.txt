@@ -1,0 +1,17 @@
+JAR BAUEN OHNE ETWAS ZU INSTALLIEREN (GitHub baut sie fuer dich)
+
+UPDATE (wenn du schon ein Repo hast):
+1. Im Repo: "Add file" -> "Upload files".
+2. Den Ordner "src" aus diesem entpackten Ordner ins Fenster ziehen (ueberschreibt die alten Dateien).
+3. "Commit changes" -> Actions -> auf den gruenen Lauf warten -> Artifact "StunSlam-jar" laden.
+
+ERSTES MAL:
+1. Auf github.com ein neues Repository anlegen.
+2. Alle Dateien und Ordner aus diesem Ordner hochladen (auch ".github").
+3. Actions -> Lauf abwarten -> Artifact "StunSlam-jar" herunterladen -> entpacken.
+4. Die .jar zusammen mit Fabric API in den mods-Ordner (Minecraft 26.2, Fabric, Java 25).
+
+IM SPIEL:
+- Rechts-Shift = Einstellungsmenue (dort kannst du auch beide Tasten aendern)
+- V = Stun Slam an/aus
+- Axt UND Mace muessen in der Hotbar liegen.
